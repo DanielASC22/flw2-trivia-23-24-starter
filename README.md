@@ -49,8 +49,8 @@ In App.js:
 
 Now, we want our question prop to show an actual question from our data file!
 
-- [ ] Using bracket notation, replace "Question goes here" with the `question.text` field found in data for the first question.
-  - [ ] HINT: Use the currentQuestionNumber variable you just wrote.
+- [X] Using bracket notation, replace "Question goes here" with the `question.text` field found in data for the first question.
+  - [X] HINT: Use the currentQuestionNumber variable you just wrote.
 
 > ![Day 1.0 goal](https://i.imgur.com/eTZAXGk.png)
 
@@ -58,19 +58,19 @@ Now, we want our question prop to show an actual question from our data file!
 
 In the components folder:
 
-- [ ] Create a new js file for a NextQuestion component (be sure to capitalize the first letter!)
+- [X] Create a new js file for a NextQuestion component (be sure to capitalize the first letter!)
 
 - [ ] Check that you have:
 
-  - [ ] Used the function keyword.
-  - [ ] Named the component Question.
-  - [ ] Included a return statement with a div that has a button element that has the content "Next Question" and a paragraph tag that says “Question #”
-  - [ ] Exported the NextQuestion component at the end.
-  - [ ] The component is imported to your App.js file.
+  - [X] Used the function keyword.
+  - [X] Named the component Question.
+  - [X] Included a return statement with a div that has a button element that has the content "Next Question" and a paragraph tag that says “Question #”
+  - [X] Exported the NextQuestion component at the end.
+  - [X] The component is imported to your App.js file.
 
 In App.js:
 
-- [ ] After the Question component, render an instance of `<NextQuestion />` inside the return statement of `<App />` (it will not work yet).
+- [X] After the Question component, render an instance of `<NextQuestion />` inside the return statement of `<App />` (it will not work yet).
 
 > ![Day 1.5 goal](https://i.imgur.com/o4MzPjL.png)
 
@@ -86,17 +86,17 @@ In App.js:
 
 In the components folder:
 
-- [ ] Create a new js file for an AnswerChoices component (be sure to capitalize the first letter!)
+- [X] Create a new js file for an AnswerChoices component (be sure to capitalize the first letter!)
 - [ ] Check that you have:
 
-  - [ ] Used the function keyword.
-  - [ ] Named the component AnswerChoices.
-  - [ ] Included a return statement with an empty div that has a className of “answer-choice”.
-  - [ ] Exported the AnswerChoices component at the end.
+  - [X] Used the function keyword.
+  - [X] Named the component AnswerChoices.
+  - [X] Included a return statement with an empty div that has a className of “answer-choice”.
+  - [X] Exported the AnswerChoices component at the end.
 
 In the Question component:
 
-- [ ] Render an instance of `<AnswerChoices />` inside of `<Question />`.
+- [X] Render an instance of `<AnswerChoices />` inside of `<Question />`.
 - [ ] Add a prop called `answer` to `<Answer />` with the value equal to "Answer choice goes here".
 - [ ] Be sure to pass your props into the `<Answer />` component.
 

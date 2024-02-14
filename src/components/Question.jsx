@@ -1,9 +1,11 @@
 import React from 'react';
+import AnswerChoices from './AnswerChoices';
 
 function Question(props) {
   return(
     <div> 
-      <h1{props.question}></h1>
+      {props.question}
+      <AnswerChoices answer='Answer Choice Goes Here'/>
     </div>
   )
 }
