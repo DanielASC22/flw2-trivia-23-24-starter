@@ -14,11 +14,11 @@ In this unit, coders will work in groups to build a project using HTML, CSS, Rea
 
 ### Project Planning
 
-- [ ] Open up the Project Planning Document
-- [ ] Look over the "Inspiration and Ideas" section
-- [ ] Complete the "Let's Brainstorm" section.
-- [ ] Complete the "Trivia" section.
-- [ ] Update the json file with your own questions/answers.
+- [x] Open up the Project Planning Document
+- [x] Look over the "Inspiration and Ideas" section
+- [x] Complete the "Let's Brainstorm" section.
+- [x] Complete the "Trivia" section.
+- [x] Update the json file with your own questions/answers.
       <br>
 
 ---
@@ -29,23 +29,23 @@ In this unit, coders will work in groups to build a project using HTML, CSS, Rea
 
 ### Goal 1: Render a question from sample_data.json on the screen.
 
-- [ ] Create a folder named "components".
+- [x] Create a folder named "components".
 
 In the components folder:
 
-- [ ] Create a new js file for a Question component (be sure to capitalize the first letter!)
-- [ ] Check that you have:
+- [x] Create a new js file for a Question component (be sure to capitalize the first letter!)
+- [x] Check that you have:
 
-  - [ ] Used the function keyword.
-  - [ ] Named the component Question.
-  - [ ] Included a return statement with an empty div.
-  - [ ] Exported the Question component at the end.
+  - [x] Used the function keyword.
+  - [x] Named the component Question.
+  - [x] Included a return statement with an empty div.
+  - [x] Exported the Question component at the end.
 
 In App.js:
 
-- [ ] Render an instance of `<Question />` inside the return statement of `<App />`.
-- [ ] Add a prop called `question` to `<Question />` with the value equal to "Question goes here".
-- [ ] In `<App />`, add a variable called currentQuestionNumber and set it equal to 0.
+- [X] Render an instance of `<Question />` inside the return statement of `<App />`.
+- [X] Add a prop called `question` to `<Question />` with the value equal to "Question goes here".
+- [X] In `<App />`, add a variable called currentQuestionNumber and set it equal to 0.
 
 Now, we want our question prop to show an actual question from our data file!
 
